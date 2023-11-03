@@ -1,0 +1,497 @@
+.head{
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    padding: 10px;
+    background-color: rgb(89, 192, 135);
+    position: fixed;
+    width: 100%;
+}
+.logo img{
+    width: 50px;
+    float: left;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+header nav ul li label img{
+    width: 15px;
+}
+
+header nav ul{
+    margin-left: 38rem;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 2.5rem;
+    padding: 8px;
+    border-radius: 25px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li:hover{
+    background-color: rgb(128, 209, 165);
+}
+
+
+.section1{
+    background-color: rgb(9, 116, 93);
+    color: white;
+}
+.jerseyimage1{
+    padding: 10px;
+    float: left;
+}
+.jerseyimage1 img{
+    width: 500px;
+    height: auto;
+    margin-top: 70px;
+}
+
+.jerseytalk1{
+    padding: 10px;
+    float: auto;
+    height: 580px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.jerseytalk1 h1{
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(188, 221, 126);
+}
+.jerseytalk1 p{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+
+
+.order h1{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(238, 32, 32);
+}
+.order{
+    background-color: blanchedalmond;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: 4px solid rgb(8, 128, 122);
+    margin: 50px;
+    height: 300px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 45, 112);
+}
+.orderimage{
+    margin: 30px;
+    border-radius: 5%;
+    width: 200px;
+}
+.order .card-container .card h5{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shopbtn{
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 2px;
+    margin-left: 60px;
+    justify-content: center;
+    background-color: rgb(8, 128, 122);
+    transition: all 0.4s;
+}
+.shopbtn:hover{
+    background-color: rgb(10, 70, 67);
+}
+
+
+
+.teamcard{
+    background-color: rgb(9, 116, 93);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.left-card{
+    width: 950px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 60px;
+}
+.left-card h2{
+    color: white;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.left-card p{
+    color: white;
+    margin-left: 20px;
+}
+.left-card button{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    float: left;
+    transition: transform 0.3s;
+}
+.left-card button:hover{
+    transform: scale(1.1);
+}
+.midcard{
+    float: right;
+    width: 500px;
+    margin-top: 60px;
+}
+.midcard img{
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.midcard img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.selltalk{
+    text-align: center;
+}
+.selltalk h3{
+    color: rgb(238, 32, 32);
+}
+.sell{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.sell .sellcard img{
+    width: 200px;
+}
+.sellcard button{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(128, 18, 36);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.sellcard button:hover{
+    background-color: grey;  
+}
+.view{
+    width: 1000px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.3s;
+}
+.view:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.polamaiya{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+.polamaiyatalk{
+    width: 700px;
+    padding: 60px;
+}
+.polamaiyatalk h2{
+    margin-top: 60px;
+}
+.polamaiya input{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(128, 18, 36);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.4s;
+}
+.polamaiya input:hover{
+    background-color: grey;
+}
+.polamaiya h3{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    padding: 30px;
+}
+.foot ul li{
+    display: inline-block;
+    border-radius: 50%;
+}
+.foot ul li img{
+    width: 30px;
+    margin: 20px;
+    margin-top: 10px;
+}
+.foot div input{
+    width: 1000px;
+    height: 45px;
+}
+.search2{
+    background-color: grey;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+
+
+
+footer div img{
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 2%;
+}
+footer{
+    background-color: rgb(20, 45, 112);
+    padding: 20px;
+    color: white;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer div{
+    padding: 20px;
+    width: 250px;
+}
+.diffoot{
+    width: 400px;
+}
+
+
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 420px) {
+    /* Header styles */
+    header {
+      padding: 10px;
+      width: 85%;
+    }
+  
+    .logo img {
+      width: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    header nav ul {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    header nav ul li {
+      display: inline;
+      margin: 1px;
+      margin-left: 0px;
+    }
+
+    header nav ul li input{
+        margin: 10px;
+    }
+  
+    /* Section 1 styles */
+    .jerseyimage1 img {
+      width: 90%;
+      margin-top: 100px;
+    }
+  
+    .jerseytalk1 {
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .jerseytalk1 h1 {
+      font-size: 3rem;
+    }
+  
+    /* Order section styles */
+    .order h1 {
+      font-size: 1.5rem;
+    }
+  
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin: 20px;
+      justify-content: center;
+      height: max-content;
+    }
+  
+    .orderimage {
+      margin: 30px;
+      width: 82%;
+    }
+  
+    .order .card-container .card h5 {
+      font-size: 1.2rem;
+    }
+  
+    .shopbtn {
+
+      margin-left: 110px;
+    }
+  
+    /* Team card styles */
+    .teamcard {
+      flex-direction: column;
+      
+    }
+  
+    .left-card {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .left-card h2 {
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+    .midcard img{
+        margin-left: 100px;
+        width: 100px;
+        height: 100px;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+  
+    /* Sell section styles */
+    .sell{
+        margin: 0px;
+    }
+    .sell .sellcard img {
+      width: 50%;
+    }
+  
+    .sellcard button {
+      width: 100px;
+      height: 35px;
+    }
+  
+    .view {
+      width: 80%;
+      font-size: 1rem;
+    }
+  
+    /* Polamaiya section styles */
+    .polamaiya {
+      flex-direction: column;
+    }
+  
+    .polamaiyatalk {
+      width: 100%;
+      padding: 0rem;
+    }
+  
+    .polamaiya button {
+      width: 100%;
+      font-size: 1rem;
+    }
+    .polamaiya img{
+        width: 90%;
+    }
+  
+    /* Footer styles */
+    .foot ul {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .foot ul li {
+      display: inline-block;
+    }
+  
+    .foot div input {
+      width: 100%;
+    }
+  
+    .search2 {
+      width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+  
+    .diffoot{
+        width: 300px;
+    }
+    footer div img {
+      width: 20%;
+    }
+  }
